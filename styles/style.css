@@ -24,9 +24,13 @@ body {
 }
 
 .btn-primary {
-    border-radius: 8p x;
+    border-radius: 8px;
     background: rgba(255, 84, 0, 1);
     padding: 20px 25px;
+    width: 170px;
+    height: 45px;
+    flex-shrink: 0;
+    text-align: center;
     color: #FFF;
     font-size: 1.25 rem;
     font-weight: 800;
@@ -80,6 +84,41 @@ nav li {
     font-size: 1.125 rem;
     text-align: center;
     font-weight: 400;
+}
+
+/* banner style  */
+.banner {
+    /* justify-content: center; */
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    margin: 70px 135px;
+    /* max-width: 100%; */
+    /* max-height: auto; */
+    object-fit: cover;
+}
+
+.banner-content {
+    text-align: center;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.banner-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+
+.banner-menu {
+    display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
 
 /* header style end */
