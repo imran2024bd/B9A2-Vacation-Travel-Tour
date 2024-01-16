@@ -15,8 +15,17 @@ body {
     justify-content: center;
 }
 
+.section-title {
+    margin-bottom: 25px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 .text-light-gray {
     color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .text-color-h {
@@ -26,13 +35,13 @@ body {
 .btn-primary {
     border-radius: 8px;
     background: rgba(255, 84, 0, 1);
-    padding: 20px 25px;
-    width: 170px;
-    height: 45px;
+    padding: 2px auto;
+    width: 140px;
+    height: 30px;
     flex-shrink: 0;
     text-align: center;
     color: #FFF;
-    font-size: 1.25 rem;
+    font-size: 1.10 rem;
     font-weight: 800;
     border: 0;
 }
@@ -87,13 +96,16 @@ nav li {
 }
 
 /* banner style  */
-.banner {
+.banner-section {
     /* justify-content: center; */
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     margin: 70px 135px;
+    max-width: 1197px;
+    max-height: 512px;
     /* max-width: 100%; */
     /* max-height: auto; */
     object-fit: cover;
+    border: 5px solid red;
 }
 
 .banner-content {
@@ -111,14 +123,209 @@ nav li {
 
 }
 
-
 .banner-menu {
-    display: inline-flex;
-    padding: 16px;
+    /* display: inline-flex; */
+    /* padding: 16px; */
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    border: 5px splid aqua;
 }
 
 /* header style end */
+
+/* popular-section style start */
+.popular-section {
+    /* border: 2px solid purple; */
+    margin: 0 135px;
+    display: flex;
+}
+
+.pupular-text {
+    width: 50%;
+    /* border: 2px solid rgb(4, 248, 37); */
+    justify-content: center;
+    align-content: center;
+
+}
+
+.pupular-text p {
+    width: 577px;
+
+}
+
+.pupular-text ul {
+    margin-left: 25px;
+    width: 525px;
+
+}
+
+.pupular-text li,
+p {
+    margin-bottom: 20px;
+    max-height: 52px;
+}
+
+.popular-img {
+    width: 50%;
+    /* border: 2px solid rgb(241, 5, 5); */
+    /* display: block; */
+}
+
+.popular-img img {
+    width: 100%;
+    /* height: 100%; */
+    /* width: 540px; */
+    height: 550px;
+    border-radius: 16px;
+
+}
+
+/* section-destination start */
+.section-destination {
+    margin-top: 50px;
+    margin: 0 135px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(241, 5, 5);
+}
+
+.destination-title {
+    margin: 0 auto;
+    align-content: center;
+}
+
+.destination-title h2 {
+    text-align: center;
+}
+
+.destination-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* section-destination end */
+/* chose-section start */
+.chose-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* card-section start */
+.card-section {
+    margin: 0 135px;
+    display: flex;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.hotel-service {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-service h2 {
+    font-size: 1.5rem;
+}
+
+.best-price {
+    width: 50%;
+
+}
+
+.best-price h2 {
+    font-size: 1.5rem;
+}
+
+/* card-section end */
+
+/* perfect-place start */
+.perfect-place {
+    margin: 0 135px;
+    display: flex;
+
+}
+
+.perfect-place-text {
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.perfect-place-text li {
+    font-weight: 700;
+}
+
+.perfect-place-img {
+    width: 50%;
+}
+
+.perfect-place-img img {
+    width: 100%;
+}
+
+/* news-letter start */
+.news-letter {
+    margin: 0 135px;
+    display: flex;
+}
+
+.news-letter-text {
+    width: 50%;
+}
+
+.news-letter h2 {
+    font-size: 1.5rem;
+}
+
+.news-letter-img {
+    width: 50%;
+}
+
+.news-letter-img img {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+ul>li input {
+    width: 393px;
+    height: 52px;
+    gap: 16px;
+}
+
+/* footer-section start */
+.footer-section {
+    margin: 0 auto;
+    width: 1170px;
+    height: 250px;
+    background: rgba(19, 19, 24, 0.05);
+    /* padding: 110px 336px 110px; */
+    border: 5px solid blue;
+    align-items: center;
+
+}
+
+.line {
+    border: 1px solid rgba(19, 19, 24, 0.05);
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-right: 270px;
+    /* margin: 0 66px;
+    text-align: center; */
+
+}
+
+.footer-heading {}
