@@ -97,22 +97,20 @@ nav li {
 
 /* banner style  */
 .banner-section {
-    /* justify-content: center; */
-    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-    margin: 70px 135px;
-    max-width: 1197px;
-    max-height: 512px;
-    /* max-width: 100%; */
-    /* max-height: auto; */
-    object-fit: cover;
-    border: 5px solid red;
-}
+    margin: 0 135px;
+    background-image: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1170px;
+    min-height: 520px;
+   }
 
 .banner-content {
     text-align: center;
     color: #FFF;
     font-size: 2.5rem;
     font-weight: 800;
+    margin: 106px 287px;
 }
 
 .banner-p {
@@ -120,19 +118,20 @@ nav li {
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-
 }
 
 .banner-menu {
-    /* display: inline-flex; */
-    /* padding: 16px; */
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    gap: 24px;
     border-radius: 8px;
+    min-width: 768px;
+    max-height: 52px;
     background: rgba(255, 255, 255, 0.30);
-    border: 5px splid aqua;
+    /* display: inline-flex; */
+    padding: 16px;
+    /* align-items: flex-start; */
+    gap: 24px;
 }
 
 /* header style end */
@@ -190,7 +189,7 @@ p {
     margin: 0 135px;
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(241, 5, 5);
+   
 }
 
 .destination-title {
@@ -310,9 +309,7 @@ ul>li input {
     margin: 0 auto;
     width: 1170px;
     height: 250px;
-    background: rgba(19, 19, 24, 0.05);
-    /* padding: 110px 336px 110px; */
-    border: 5px solid blue;
+    background: rgba(19, 19, 24, 0.05); 
     align-items: center;
 
 }
@@ -323,9 +320,7 @@ ul>li input {
     height: 1px;
     background: rgba(19, 19, 24, 0.05);
     margin-right: 270px;
-    /* margin: 0 66px;
-    text-align: center; */
-
+    
 }
 
 .footer-heading {}
